@@ -1,4 +1,5 @@
 // variables and constant are used to store some data inside the memory
+// var/let/const these are reserved keyword used to initialise variable. some memory are reserved when initialised.
 
 const empId = 14245
 let empMail = "abc@mail.com"
@@ -21,4 +22,3 @@ empCity = "mumbai"
 // Process.stdout.write(empId) // this will print error as constant cannot be changed
 
 console.table([empId,empMail,empPassword,empCity,empState]); // print in tabular form
-
