@@ -10,3 +10,4 @@ console.log("world");
 
 // give output in tabular form
 console.table({ city: "Delhi" });
+console.table({ firstName: "irfan" , lastName: "Ahmed"})
