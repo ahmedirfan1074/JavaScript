@@ -1,6 +1,6 @@
 // primitives -> number, string, boolean, null, undefined, symbol, BigInt
-// they are stored in stack memory and a copy of variable is passed for use
-// there is no effect on original when value is change somewhere else
+// they are stored in stack memory and a copy of variable is used
+// there is no effect on original when value is changed as it is copy
 
 const score = 100
 let newNumber = 100.3
@@ -21,7 +21,7 @@ console.log(sym1 === sym2)
 
 // non-primtives -> array, object, function
 // they are stored in heap memory and reference of the variable is passed for used
-// any change will affect the original
+// any change will affect the original as the reference is passed
 
 // array
 let teaName = ["lemon tea" , "orange tea" , "oolong tea"]
@@ -42,3 +42,34 @@ let myFunction = function(){
 }
 
 console.log(typeof myFunction); 
+
+// ******************************memory************************************
+
+// stack(primitives)
+/*
+as the data of the primitive datatype is stored in stack memory, assigning it to another variable and changes made in other variable doesn't affect the first variable because the copy is send not the reference
+*/ 
+
+let myAccountName = "ahmedirfan"
+let anotherAccount = myAccountName
+anotherAccount = "irfanahmed"
+
+console.log(myAccountName)
+console.log(anotherAccount)
+
+// heap(non-primitives)
+/*
+variables are stored in stack memory and reference to heap where data is stored.If it is assigned to some other variable, changes made in other variable will affect the original stored data as it also reference to the same data not to a copy.
+*/ 
+
+let userOne = {
+    firstname : "Irfan",
+    mail : "xyz@mail.com"
+}
+
+let userTwo = userOne
+
+userTwo.mail = "abc@mail.com" 
+
+console.log(userTwo)
+console.log(userOne)
