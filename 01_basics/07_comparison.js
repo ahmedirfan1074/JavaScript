@@ -18,4 +18,5 @@ console.log(null >= 0)
 
 // == it checks only value.
 // === strict check.
-// it checks both datatype and value. 
+// it checks both datatype and value.
+console.log("2" === 2) 
