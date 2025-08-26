@@ -1,6 +1,6 @@
 // primitives -> number, string, boolean, null, undefined, symbol, BigInt
-// they are stored in stack memory and a copy of variable is used
-// there is no effect on original when value is changed as it is copy
+// they are stored in stack memory and a copy of variable is passed to use
+// there is no effect on original when value is changed as it is a copy
 
 const score = 100
 let newNumber = 100.3
@@ -20,7 +20,7 @@ let sym2 = Symbol("@")
 console.log(sym1 === sym2)
 
 // non-primtives -> array, object, function
-// they are stored in heap memory and reference of the variable is passed for used
+// they are stored in heap memory and reference of the variable is passed to use
 // any change will affect the original as the reference is passed
 
 // array
