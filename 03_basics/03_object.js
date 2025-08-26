@@ -12,7 +12,7 @@ const mySym = Symbol("key1") // symbol created with discription
 const user = {
     name: "irfan",
     "full name": "Irfan Ahmed", // can only be accessed using ["key"]
-    [mySym]: "mykey1", // using symbol as a key if we write directly mysym JS wil treat it as a string key just like name
+    [mySym]: "mykey1", // using symbol as a key, if we write directly mySym JS wil treat it as a string key just like name
     age: 22,
     location: "Delhi",
     email: "xyz123@mail.to",
