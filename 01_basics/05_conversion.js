@@ -4,15 +4,16 @@ let number = 33
 console.log(typeof number)
 console.log(typeof(number)) // pass as a method
 
-let newNumber = string(number)
+let newNumber = String(number)
 console.log(number)
+console.log(newNumber)
 
 // conversion of string into number datatype
 let string = "33abc"
 console.log(typeof string);
 console.log(string);
 
-let newNum = Number(string) // explicit conversion of string(string) into number
+let newNum = Number(string) // explicit conversion of String(string) into number
 console.log(typeof newNum);
 console.log(newNum); // this will give NaN(not a number) which also a number datatype
 // "33" => 33

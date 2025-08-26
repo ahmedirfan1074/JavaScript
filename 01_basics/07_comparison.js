@@ -1,8 +1,8 @@
-// console.log(2 > 1)
-// console.log(2 >= 1)
-// console.log(2 < 1)
-// console.log(2 == 1)
-// console.log(2 != 1)
+console.log(2 > 1)
+console.log(2 >= 1)
+console.log(2 < 1)
+console.log(2 == 1)
+console.log(2 != 1)
 
 // console.log("2" > 1) // comparison of diff datatype
 // console.log("2" < 1) // here we get predictable result.
@@ -19,4 +19,5 @@ console.log(null >= 0)
 // == it checks only value.
 // === strict check.
 // it checks both datatype and value.
+console.log("2" == 2)
 console.log("2" === 2) 
