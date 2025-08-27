@@ -27,8 +27,8 @@ const obj4 = { 5: "e", 6: "f" };
 
 // const obj3 = {obj1, obj2} // this will give object inside inside object just like array
 // const obj3 = Object.assign({}, obj1, obj2, obj4) // Object.assign(target,source) copy properties of source to target. Returns the target object.
-// giving {} as a target is good practice.
-const obj3 = { ...obj1, ...obj2, ...obj4 };
+// giving {}(empty object) as a target is good practice.
+const obj3 = { ...obj1, ...obj2, ...obj4 }; // using spread
 
 // console.log(obj3)
 
