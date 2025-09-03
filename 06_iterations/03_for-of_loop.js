@@ -70,5 +70,7 @@ for (const val of Object.values(myObject)) {
   console.log(val); 
 }
 
+// in above example we have made an array of keys using Object.keys() on which we can prform iteration.
+
 // summary - for of loop is used for iterating the values. works on Arrays, strings, Maps, Sets
 //  it will not iterate object as the keys cannot be iterated  (will throw error unless object is iterable by converting the values of object into an array)
