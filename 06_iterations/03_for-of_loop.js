@@ -74,3 +74,4 @@ for (const val of Object.values(myObject)) {
 
 // summary - for of loop is used for iterating the values. works on Arrays, strings, Maps, Sets
 //  it will not iterate object as the keys cannot be iterated  (will throw error unless object is iterable by converting the values of object into an array)
+// for-of loop indexing start from 1
