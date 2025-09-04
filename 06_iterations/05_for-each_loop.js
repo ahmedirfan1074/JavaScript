@@ -1,6 +1,7 @@
 // for each loop
-// syntax using normal function=>  variable.forEach ( function (anyname){})
-// syntax using arrow function=>  variable.forEach ( (anyname) => {})
+// syntax using normal function=>  variable.forEach ( function (anyname(to-pass-value)){})
+// syntax using arrow function=>  variable.forEach ( (anyname(to-pass-value)) => {})
+// we can also declare function outside and pass the reference of the function.
 // in call back function we don't give function name
 
 const coding = ["js", "ruby", "java", "python", "cpp"];
